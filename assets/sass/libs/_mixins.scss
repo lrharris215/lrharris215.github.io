@@ -25,6 +25,10 @@
         @elseif ($category == solid) {
             font-family: 'Font Awesome 5 Free';
             font-weight: 900;
+        }
+        @elseif ($category == devicon) {
+            font-family: 'Times New Roman';
+            color: red;
         } @else {
             font-family: 'Font Awesome 5 Free';
             font-weight: 400;
