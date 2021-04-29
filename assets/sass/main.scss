@@ -1020,6 +1020,7 @@ ul.feature-icons {
         align-items: center;
         margin: 0;
         width: 50%;
+        margin: 0.5em 0;
         .my-icon-bg {
             background: _palette(accent1, bg);
             border-radius: 100%;
@@ -1029,9 +1030,9 @@ ul.feature-icons {
             margin: 0;
             .my-icon {
                 position: absolute;
-                font-size: 1.5em;
-                top: 0.5em;
-                left: 0.5em;
+                font-size: 1.7em;
+                top: 0.45em;
+                left: 0.4em;
                 // color: whitesmoke;
             }
         }
@@ -1041,8 +1042,8 @@ ul.feature-icons {
             margin-left: 1em;
         }
         #ruby {
-            left: 0.45em;
-            // color: red;
+            left: 0.35em;
+            top: 0.43em;
         }
         #rails-icon {
             position: absolute;
@@ -1052,9 +1053,12 @@ ul.feature-icons {
             // color: red;
         }
         #sass {
-            font-size: 28px;
-            top: 0.3em;
-            left: 0.35em;
+            font-size: 1.8em;
+            top: 0.4em;
+            // left: 0.35em;
+        }
+        .default-color {
+            color: rgb(182, 201, 215);
         }
     }
     // li {
