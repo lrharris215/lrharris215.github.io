@@ -1535,38 +1535,37 @@ ul.actions {
 /* Feature Icons */
 ul.feature-icons {
   list-style: none;
-  padding-left: 0; }
-  ul.feature-icons li {
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 0 1.6875em 0;
-    padding: 0.35em 0 0 3.5em;
-    position: relative;
-    vertical-align: top;
-    width: 48%; }
-    ul.feature-icons li:before {
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
-      display: inline-block;
-      font-style: normal;
-      font-variant: normal;
-      text-rendering: auto;
-      line-height: 1;
-      text-transform: none !important;
-      font-family: 'Font Awesome 5 Free';
-      font-weight: 400; }
-    ul.feature-icons li:before {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap; }
+  ul.feature-icons .my-icon-li {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 50%; }
+    ul.feature-icons .my-icon-li .my-icon-bg {
       background: #182655;
       border-radius: 100%;
-      color: #ffffff;
-      display: block;
-      height: 2.5em;
-      left: 0;
-      line-height: 2.5em;
+      height: 3em;
+      width: 3em;
+      position: relative;
+      margin: 0; }
+      ul.feature-icons .my-icon-li .my-icon-bg .my-icon {
+        position: absolute;
+        font-size: 1.5em;
+        top: 0.5em;
+        left: 0.5em; }
+    ul.feature-icons .my-icon-li p {
+      display: inline-block;
+      margin: 0;
+      margin-left: 1em; }
+    ul.feature-icons .my-icon-li #ruby {
+      left: 0.45em; }
+    ul.feature-icons .my-icon-li #rails-icon {
       position: absolute;
-      text-align: center;
-      top: 0;
-      width: 2.5em; }
+      font-size: 2.5em;
+      top: 0.1em;
+      left: 0.13em; }
   ul.feature-icons li.devicon {
     font-family: 'devicon'; }
 
