@@ -1566,6 +1566,10 @@ ul.feature-icons {
       font-size: 2.5em;
       top: 0.1em;
       left: 0.13em; }
+    ul.feature-icons .my-icon-li #sass {
+      font-size: 28px;
+      top: 0.3em;
+      left: 0.35em; }
   ul.feature-icons li.devicon {
     font-family: 'devicon'; }
 
