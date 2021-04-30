@@ -35,13 +35,18 @@ $font: (
 
 // Palette.
 $palette: (
-    bg: #fff,
+    // bg: #fff,
+    bg: azure,
     fg: #888,
-    fg-bold: #777,
+    // fg-bold: #777,
+    fg-bold: rgb(78, 91, 98),
     fg-light: #aaa,
-    border: #f4f4f4,
-    border-bg: #fafafa,
+    // border: #f4f4f4,
+    border: lightsteelblue,
+    // border-bg: #fafafa,
+    border-bg: blue,
     border2: #e4e4e4,
+    // border2-bg: #f4f4f4,
     border2-bg: #f4f4f4,
     border3: #e0e0e0,
     border3-bg: #eaeaea,
@@ -63,5 +68,5 @@ $palette: (
         fg: mix(#1d327a, #ffffff, 25%),
         fg-light: mix(#1d327a, #ffffff, 40%),
         border: mix(#1d327a, #ffffff, 90%),
-    ),
+    )
 );
