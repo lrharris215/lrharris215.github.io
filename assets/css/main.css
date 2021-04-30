@@ -4,7 +4,7 @@
   color: blue;
   position: relative; }
   .clipboard:hover {
-    cursor: pointer; }
+    cursor: copy; }
   .clipboard .tooltip {
     position: absolute;
     top: -2rem;
@@ -13,7 +13,7 @@
     border: 1px solid lightsteelblue;
     border-radius: 5px;
     background-color: whitesmoke;
-    font-size: 10px;
+    font-size: 12px;
     padding: 0 0.3rem; }
     .clipboard .tooltip .tooltip-arrow {
       border: 8px solid transparent;

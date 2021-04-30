@@ -9,6 +9,9 @@ clipboard.on('success', function (e) {
     tooltip.append(arrow);
     email.append(tooltip);
 
+    setTimeout(() => {
+        email.removeChild(tooltip);
+    }, 1500);
     console.info('Action:', e.action);
     console.info('Text:', e.text);
     console.info('Trigger:', e.trigger);
