@@ -7,14 +7,14 @@
 @import url('fontawesome-all.min.css');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400');
 @import 'libs/clipboard';
+@import 'libs/misc';
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 // Breakpoints.
-
 @include breakpoints(
     (
         xlarge: (
@@ -297,7 +297,14 @@ h4 {
     font-size: 1.25em;
     line-height: 1.5em;
 }
-
+.project-link {
+    width: fit-content;
+    box-sizing: content-box;
+    h4 {
+        box-sizing: content-box;
+        width: fit-content;
+    }
+}
 h5 {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -1316,7 +1323,9 @@ input[type='button'],
             display: inline-block;
             vertical-align: middle;
             width: 50%;
-
+            h4 {
+                width: fit-content;
+            }
             > :last-child {
                 margin-bottom: 0;
             }
@@ -1843,6 +1852,9 @@ input[type='button'],
             .inner {
                 display: block;
                 width: 100%;
+                h4 {
+                    width: fit-content;
+                }
             }
         }
     }

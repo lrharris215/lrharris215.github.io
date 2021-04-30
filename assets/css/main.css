@@ -24,6 +24,9 @@
       left: 50%;
       margin-left: -0.5rem; }
 
+.steamlink:hover {
+  cursor: pointer; }
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -257,6 +260,13 @@ h3 {
 h4 {
   font-size: 1.25em;
   line-height: 1.5em; }
+
+.project-link {
+  width: fit-content;
+  box-sizing: content-box; }
+  .project-link h4 {
+    box-sizing: content-box;
+    width: fit-content; }
 
 h5 {
   font-size: 0.9em;
@@ -1788,6 +1798,8 @@ input[type='button'],
     display: inline-block;
     vertical-align: middle;
     width: 50%; }
+    .features article .inner h4 {
+      width: fit-content; }
     .features article .inner > :last-child {
       margin-bottom: 0; }
 
@@ -2164,6 +2176,8 @@ input[type='button'],
   .features article .inner {
     display: block;
     width: 100%; }
+    .features article .inner h4 {
+      width: fit-content; }
 
   /* Header */
   #header {
