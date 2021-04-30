@@ -24,9 +24,12 @@ Credits:
 
 	Demo Images:
 		Unsplash (unsplash.com)
+		banner: Photo by <a href="https://unsplash.com/@kalenemsley?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kalen Emsley</a> on <a href="https://unsplash.com/s/photos/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 	Icons:
 		Font Awesome (fontawesome.io)
+		Devicon (devicon.dev)
 
 	Other:
 		jQuery (jquery.com)
