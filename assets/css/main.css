@@ -1,5 +1,29 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+.clipboard {
+  color: blue;
+  position: relative; }
+  .clipboard:hover {
+    cursor: pointer; }
+  .clipboard .tooltip {
+    position: absolute;
+    top: -2rem;
+    left: 1rem;
+    color: lightsteelblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-size: 10px;
+    padding: 0 0.3rem; }
+    .clipboard .tooltip .tooltip-arrow {
+      border: 8px solid transparent;
+      border-top: 8px solid lightsteelblue;
+      width: 0;
+      height: 0;
+      position: absolute;
+      left: 50%;
+      margin-left: -0.5rem; }
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
