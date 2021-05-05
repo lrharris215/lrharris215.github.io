@@ -27,6 +27,14 @@
 .steamlink:hover {
   cursor: pointer; }
 
+.main .banner-credit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
+  color: #182655;
+  margin-left: 0.5rem; }
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
