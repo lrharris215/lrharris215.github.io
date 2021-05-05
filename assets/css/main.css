@@ -1610,6 +1610,12 @@ ul.feature-icons {
         font-size: 1.7em;
         top: 0.45em;
         left: 0.4em; }
+      ul.feature-icons .my-icon-li .my-icon-bg .rspec-logo {
+        position: absolute;
+        top: 0.5em;
+        left: 0.52em;
+        width: 2em;
+        height: 2em; }
     ul.feature-icons .my-icon-li p {
       display: inline-block;
       margin: 0;
