@@ -35,6 +35,24 @@
   color: #182655;
   margin-left: 0.5rem; }
 
+#three article .project-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: red; }
+  #three article .project-title .project-link {
+    width: fit-content;
+    box-sizing: content-box; }
+  #three article .project-title .project-github-link {
+    margin-left: 2em; }
+
+.project-link {
+  width: fit-content;
+  box-sizing: content-box; }
+
+.project-github-link {
+  margin-left: 2em; }
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -268,13 +286,6 @@ h3 {
 h4 {
   font-size: 1.25em;
   line-height: 1.5em; }
-
-.project-link {
-  width: fit-content;
-  box-sizing: content-box; }
-  .project-link h4 {
-    box-sizing: content-box;
-    width: fit-content; }
 
 h5 {
   font-size: 0.9em;
@@ -1808,6 +1819,8 @@ input[type='button'],
     width: 50%; }
     .features article .inner h4 {
       width: fit-content; }
+      .features article .inner h4 .project-github-link {
+        margin-left: 2em; }
     .features article .inner > :last-child {
       margin-bottom: 0; }
 
@@ -2186,6 +2199,8 @@ input[type='button'],
     width: 100%; }
     .features article .inner h4 {
       width: fit-content; }
+      .features article .inner h4 .project-github-link {
+        margin-left: 2em; }
 
   /* Header */
   #header {

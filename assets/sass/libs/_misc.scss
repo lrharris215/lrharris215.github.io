@@ -15,3 +15,35 @@
         margin-left: 0.5rem;
     }
 }
+#three {
+    article {
+        .project-title {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            color: red;
+            .project-link {
+                width: fit-content;
+                box-sizing: content-box;
+                // h4 {
+                //     box-sizing: content-box;
+                //     width: fit-content;
+                // }
+            }
+            .project-github-link {
+                margin-left: 2em;
+            }
+        }
+    }
+}
+.project-link {
+    width: fit-content;
+    box-sizing: content-box;
+    // h4 {
+    //     box-sizing: content-box;
+    //     width: fit-content;
+    // }
+}
+.project-github-link {
+    margin-left: 2em;
+}
