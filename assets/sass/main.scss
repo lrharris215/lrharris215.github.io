@@ -1318,9 +1318,10 @@ input[type='button'],
             width: 50%;
             h4 {
                 width: fit-content;
-                .project-github-link {
-                    margin-left: 2em;
-                }
+                // .project-github-link {
+                //     color: red;
+                //     margin-left: 2em;
+                // }
             }
             > :last-child {
                 margin-bottom: 0;
