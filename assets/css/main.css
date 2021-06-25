@@ -1596,7 +1596,7 @@ ul.feature-icons {
     display: flex;
     align-items: center;
     margin: 0;
-    width: 50%;
+    width: 30%;
     margin: 0.5em 0; }
     ul.feature-icons .my-icon-li .my-icon-bg {
       background: #182655;
@@ -1610,10 +1610,10 @@ ul.feature-icons {
         font-size: 1.7em;
         top: 0.45em;
         left: 0.4em; }
-      ul.feature-icons .my-icon-li .my-icon-bg .rspec-logo {
+      ul.feature-icons .my-icon-li .my-icon-bg .img-logo {
         position: absolute;
         top: 0.5em;
-        left: 0.52em;
+        left: 0.5em;
         width: 2em;
         height: 2em; }
     ul.feature-icons .my-icon-li p {
@@ -1630,6 +1630,12 @@ ul.feature-icons {
       left: 0.13em; }
     ul.feature-icons .my-icon-li #sass {
       font-size: 1.8em;
+      top: 0.4em; }
+    ul.feature-icons .my-icon-li #mocha-icon {
+      position: absolute;
+      left: 0.45em;
+      top: 0.4em; }
+    ul.feature-icons .my-icon-li #webpack-icon {
       top: 0.4em; }
     ul.feature-icons .my-icon-li .default-color {
       color: #b6c9d7; }
